@@ -57,12 +57,12 @@
         },
         "runtime": {
             "type": "bind",
-            "source": "/home/alex/.local/share/xdg-app/runtime/org.gnome.Platform/x86_64/3.18/active/files/",
+            "source": "runtime",
             "options": ["rbind","ro"]
         },
         "app": {
             "type": "bind",
-            "source": "/home/alex/.local/share/xdg-app/app/org.gimp.GimpDevel/current/active/files",
+            "source": "app",
             "options": ["rbind","ro"]
         },
         "home": {

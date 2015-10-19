@@ -67,7 +67,7 @@
         },
         "home": {
             "type": "bind",
-            "source": "/home/alex/",
+            "source": "/home/@USER@",
             "options": ["rbind"]
         }
     },

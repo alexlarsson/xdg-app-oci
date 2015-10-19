@@ -4,6 +4,7 @@ rm -rf rootfs
 mkdir rootfs
 
 USER=`id -u`
+USERNAME=`id -un`
 
 mkdir -p rootfs/usr
 mkdir -p rootfs/tmp
@@ -42,3 +43,4 @@ mkdir -p rootfs/dev
 mkdir -p rootfs/dev/pts
 mkdir -p rootfs/dev/shm
 mkdir -p rootfs/dev/dri
+mkdir -p rootfs/home/$USERNAME

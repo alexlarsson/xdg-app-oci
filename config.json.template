@@ -7,8 +7,8 @@
     "process": {
         "terminal": true,
         "user": {
-            "uid": 1000,
-            "gid": 1000,
+            "uid": @UID@,
+            "gid": @UID@,
             "additionalGids": []
         },
         "args": [
@@ -27,7 +27,7 @@
             "XDG_CONFIG_HOME=/home/@USER@/.var/app/org.gimp.GimpDevel/config",
             "XDG_DATA_DIRS=/app/share:/usr/share",
             "XDG_DATA_HOME=/home/@USER@/.var/app/org.gimp.GimpDevel/data",
-            "XDG_RUNTIME_DIR=/run/user/1000"
+            "XDG_RUNTIME_DIR=/run/user/@UID@"
         ],
         "cwd": "/usr"
     },

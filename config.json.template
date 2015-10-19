@@ -12,7 +12,7 @@
             "additionalGids": []
         },
         "args": [
-            "/usr/bin/sh"
+            "gimp-2.9"
         ],
         "env": [
             "TERM=xterm",

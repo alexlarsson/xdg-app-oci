@@ -77,12 +77,39 @@
                 "type": "pid"
             },
             {
+                "type": "user"
+            },
+            {
                 "type": "mount"
             }
         ],
         "rootfsPropagation": "slave",
         "resources": {
         },
+        "uidMappings": [
+            {
+                "hostID": @UID@,
+                "containerID": 0,
+                "size": 1
+            },
+            {
+                "hostID": @UID@,
+                "containerID": @UID@,
+                "size": 1
+            }
+        ],
+        "gidMappings": [
+            {
+                "hostID": @GID@,
+                "containerID": 0,
+                "size": 1
+            },
+            {
+                "hostID": @GID@,
+                "containerID": @GID@,
+                "size": 1
+            }
+        ],
         "seccomp":  {
             "defaultAction": "SCMP_ACT_ALLOW",
             "architectures": ["SCMP_ARCH_X86_64"],

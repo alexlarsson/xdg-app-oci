@@ -89,24 +89,24 @@
         "uidMappings": [
             {
                 "hostID": @UID@,
-                "containerID": 0,
+                "containerID": @UID@,
                 "size": 1
             },
             {
-                "hostID": @UID@,
-                "containerID": @UID@,
+                "hostID": 0,
+                "containerID": 0,
                 "size": 1
             }
         ],
         "gidMappings": [
             {
                 "hostID": @GID@,
-                "containerID": 0,
+                "containerID": @GID@,
                 "size": 1
             },
             {
-                "hostID": @GID@,
-                "containerID": @GID@,
+                "hostID": 0,
+                "containerID": 0,
                 "size": 1
             }
         ],
